@@ -1,0 +1,17 @@
+.fotos {
+    margin: auto;
+    border-radius: 1em;
+    margin-top: 5em;
+    width: 30em;
+    height: 35em;
+    background-color: white;
+    overflow: hidden;
+}
+
+.fotos img {
+    margin-top: -5em;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 1s ease-in-out;
+}
