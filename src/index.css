@@ -10,4 +10,5 @@ html,body,#root {
   height: 100vh;
   width: 100%;
   background-color: rgb(212, 206, 199);
+  scroll-behavior: auto;
 }

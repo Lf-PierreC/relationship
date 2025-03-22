@@ -1,6 +1,7 @@
 import React from "react";
 import styles from './Container.module.css'
 import Carrossel from "../Carrossel";
+import ContadorDeTempo from "../ContadorDeTempo";
 
 function Container() {
     return (
