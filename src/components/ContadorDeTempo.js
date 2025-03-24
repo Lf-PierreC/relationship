@@ -5,7 +5,7 @@ function ContadorDeTempo() {
   const [tempo, setTempo] = useState({ anos: 0, meses: 0, dias: 0 });
 
   useEffect(() => {
-    const dataInicial = new Date('2025-02-22'); 
+    const dataInicial = new Date(2025, 1, 22);  
     const dataAtual = new Date();
 
     const calcularDiferenca = (inicio, fim) => {
