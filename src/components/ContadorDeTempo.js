@@ -6,7 +6,7 @@ function ContadorDeTempo() {
 
   useEffect(() => {
     const dataInicial = new Date('2025-02-22'); 
-    const dataAtual = new Date('2025-03-22' );
+    const dataAtual = new Date();
 
     const calcularDiferenca = (inicio, fim) => {
       let anos = fim.getFullYear() - inicio.getFullYear();
