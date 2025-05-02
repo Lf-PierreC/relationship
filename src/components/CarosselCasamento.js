@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import styles from './layout/ContainerCasamento.module.css'
 import foto1 from './img/foto01.jpg';
-import foto2 from './img/foto02.jpg';
-import foto3 from './img/foto03.jpg';
-import foto4 from './img/foto04.jpg';
-import foto5 from './img/foto05.jpg';
+//import foto2 from './img/foto02.jpg';
+//import foto3 from './img/foto03.jpg';
+//import foto4 from './img/foto04.jpg';
+//import foto5 from './img/foto05.jpg';
 import foto6 from './img/foto06.jpg'
 import foto7 from './img/foto07.jpg'
 import foto8 from './img/foto08.jpg'
