@@ -1,6 +1,7 @@
 * {
     font-family: "Cormorant SC", serif;
     font-weight: 300;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .navbar {
