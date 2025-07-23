@@ -6,14 +6,19 @@ import foto1 from './img/foto01.jpg';
 //import foto4 from './img/foto04.jpg';
 //import foto5 from './img/foto05.jpg';
 import foto6 from './img/foto06.jpg'
-import foto7 from './img/foto07.jpg'
+//import foto7 from './img/foto07.jpg'
 import foto8 from './img/foto08.jpg'
 import foto9 from './img/foto09.jpg'
+import foto10 from './img/foto10.jpg'
+import foto11 from './img/foto11.jpg'
+import foto12 from './img/foto13.jpg'
+import foto13 from './img/foto15.jpg'
+import foto14 from './img/foto16.jpg'
 
-const imagens = [foto8, foto7, foto9, foto6, foto1];
+const imagens = [foto1, foto6, foto8, foto9, foto10, foto11, foto12, foto13, foto14];
 
 function CarrosselCasamento() {
-  const [index, setIndex] = useState(0);
+  const [index, setIndex] = useState(0);  
 
   useEffect(() => {
     const intervalo = setInterval(() => {
