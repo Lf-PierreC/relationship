@@ -7,10 +7,24 @@
   box-sizing: border-box;
 }
 
+
+.container_qrcode a {
+  display: flex;        
+  justify-content: center;    /* centraliza na horizontal */
+  align-items: center;
+}
+
 .qrcode {
   margin-top: 5em;
-  width: 80%;                 /* ocupa 80% da largura da tela */
+  width: 100%;                 /* ocupa 80% da largura da tela */
   max-width: 300px;           /* mas nunca passa disso */
   height: auto;               /* mantém proporção */
   border-radius: 1em;        /* cantos arredondados */
+  cursor: pointer;
+}
+
+.descricao {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: center;
 }
