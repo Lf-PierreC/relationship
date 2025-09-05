@@ -1,0 +1,16 @@
+.container_qrcode {
+  width: 100%;           /* ocupa altura da tela toda */
+  display: flex;
+  justify-content: center;    /* centraliza na horizontal */
+  align-items: center;        /* centraliza na vertical */
+  padding: 1em;               /* respiro nas bordas */
+  box-sizing: border-box;
+}
+
+.qrcode {
+  margin-top: 5em;
+  width: 80%;                 /* ocupa 80% da largura da tela */
+  max-width: 300px;           /* mas nunca passa disso */
+  height: auto;               /* mantém proporção */
+  border-radius: 1em;        /* cantos arredondados */
+}
