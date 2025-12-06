@@ -5,7 +5,7 @@ function ContadorDeTempoCasamento() {
   const [tempo, setTempo] = useState({ anos: 0, meses: 0, dias: 0 });
 
   useEffect(() => {
-    const dataFinal = new Date(2026, 2, 21);  
+    const dataFinal = new Date(2026, 6, 22);  
     const dataAtual = new Date();
 
     const calcularDiferenca = (inicio, fim) => {

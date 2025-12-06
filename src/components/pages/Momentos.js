@@ -8,9 +8,9 @@ function Momentos() {
       <Header/>
       <div className={styles.container_qrcode}>
         <a 
-          href="https://youtu.be/-_rsnrywox0?si=E6eHeV99RJ2ObeIT"  // 🔗 coloque aqui o link do QR Code
-          target="_blank"             // abre em nova aba
-          rel="noopener noreferrer"   // segurança
+          href="https://www.youtube.com/playlist?list=PLR5AIsvMbHkZf6OvMSHrY0pqwt4waayS9"  
+          target="_blank"             
+          rel="noopener noreferrer"  
         >
           <img 
             src="/images/qrcode_6meses.png" 

@@ -1,25 +1,34 @@
-import {Link} from 'react-router-dom'
-
-import styles from './Navbar.module.css'
+import { useState } from "react";
+import { Link } from "react-router-dom";
+import styles from "./Navbar.module.css";
 
 function Navbar() {
-    return (
-        <nav className={styles.navbar}>
-            
-            <ul className={styles.list}>
-                <li className={styles.item}>
-                    <Link to="/">RELACIONAMENTO</Link>
-                </li>
-                <li className={styles.item}>
-                    <Link to="/casamento">CASAMENTO</Link>
-                </li>
-                <li className={styles.item}>
-                    <Link to="/momentos">MOMENTOS</Link>
-                </li>
-            </ul>
+  const [open, setOpen] = useState(false);
 
-        </nav>
-    )
+  return (
+    <nav className={styles.navbar}>
+        {/* Lista de itens */}
+        <ul className={`${styles.list} ${open ? styles.open : ""}`}>
+            <li className={styles.item}>
+                <Link to="/" onClick={() => setOpen(false)}>RELACIONAMENTO</Link>
+            </li>
+            <li className={styles.item}>
+                <Link to="/casamento" onClick={() => setOpen(false)}>CASAMENTO</Link>
+            </li>
+            <li className={styles.item}>
+                <Link to="/momentos" onClick={() => setOpen(false)}>MOMENTOS</Link>
+            </li>
+        </ul>
+
+      {/* Ícone do menu */}
+      <div 
+        className={styles.menuIcon} 
+        onClick={() => setOpen(!open)}
+      >
+        ☰
+      </div>
+    </nav>
+  );
 }
 
-export default Navbar
+export default Navbar;
